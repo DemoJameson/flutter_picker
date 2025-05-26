@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
           primarySwatch: Colors.blue,
           fontFamily: _fontFamily,
           brightness: dark ? Brightness.dark : Brightness.light,
-          primaryTextTheme: TextTheme().apply(fontFamily: _fontFamily),
+          textTheme: TextTheme().apply(fontFamily: _fontFamily),
         ),
         scrollBehavior: const MaterialScrollBehavior()
             .copyWith(scrollbars: true, dragDevices: _kTouchLikeDeviceTypes),

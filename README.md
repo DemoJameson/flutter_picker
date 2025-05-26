@@ -258,3 +258,37 @@ const PickerData = '''
 ]
     ''';
 ```
+
+## 版本更新说明 (Version Update Notes)
+
+### v2.1.2 (2023.08.15)
+
+Flutter Picker插件已经更新以支持最新版本的Flutter。主要更新内容如下：
+
+1. **兼容性升级**：
+   - 升级SDK版本支持范围到Flutter 3.x
+   - 修复与新版Flutter的兼容性问题
+
+2. **API更新**：
+   - 替换已弃用的`ScaffoldState.showBottomSheet`方法为`Scaffold.maybeOf`
+   - 更新`ButtonStyle`和颜色相关的API，使用`colorScheme.primary`替代过时的`colorScheme.secondary`
+   - 修复其他过时的API使用
+
+3. **使用说明**：
+   - 如果您正在使用此插件，请更新到最新版本以获得更好的兼容性
+   - 对于现有代码，无需进行任何改变，API保持向后兼容
+
+The Flutter Picker plugin has been updated to support the latest versions of Flutter. Major updates include:
+
+1. **Compatibility Upgrade**:
+   - Expanded SDK version support to Flutter 3.x
+   - Fixed compatibility issues with newer Flutter versions
+
+2. **API Updates**:
+   - Replaced deprecated `ScaffoldState.showBottomSheet` method with `Scaffold.maybeOf`
+   - Updated `ButtonStyle` and color-related APIs, using `colorScheme.primary` instead of the deprecated `colorScheme.secondary`
+   - Fixed other deprecated API usages
+
+3. **Usage Notes**:
+   - If you are using this plugin, please update to the latest version for better compatibility
+   - No changes needed for existing code, the API remains backward compatible
